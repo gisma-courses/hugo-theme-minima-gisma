@@ -1,0 +1,64 @@
+baseURL: http://h.xjj.pub
+languageCode: en-us
+title: Hi Folks
+copyright: © XJJ 2021
+paginate: 6
+googleAnalytics: ''
+theme: hugo-theme-minima
+author:
+  description: ""
+  name: 
+params:
+  comment: utterances
+  displayDate: yes
+  disqus:
+    shortname: hugo-minima
+  globalFontFamily: Helvatica, sans-serif
+  iam: I am
+  ovo:
+    placeholder: ''
+    server: ''
+  selectable: yes
+  social:
+    - name: github
+      svg: ''
+      url: https://github.com/mivinci
+    - name: linkedin
+      svg: ''
+      url: https://linkedin/in/leonard-mivinci-63895317a
+    - name: twitter
+      svg: ''
+      url: https://twitter.com/Leonard14733745
+    - name: rss
+      svg: ''
+      url: /index.xml
+  subtitle: ''
+  switch:
+    - "\U0001F31A"
+    - "\U0001F31D"
+  timeformat: Jan 02, 2006
+  utterances:
+    issueTerm: pathname
+    repo: mivinci/hugo-theme-minima
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Categories
+      url: /categories
+      weight: 2
+    - name: Series
+      url: /series
+      weight: 3
+    - name: About
+      url: /about
+      weight: 4
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+markup:
+  highlight:
+    lineNos: yes
+    noClasses: no
