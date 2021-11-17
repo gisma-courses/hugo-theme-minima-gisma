@@ -1,6 +1,7 @@
 baseURL: http://
 languageCode: en-us
 title: myBlog
+publishDir: docs
 #paginate: 6
 googleAnalytics: ''
 theme: hugo-theme-minima-gisma
