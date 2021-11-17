@@ -1,10 +1,9 @@
-baseURL: http://h.xjj.pub
+baseURL: http://
 languageCode: en-us
-title: Hi Folks
-copyright: © XJJ 2021
-paginate: 6
+title: myBlog
+#paginate: 6
 googleAnalytics: ''
-theme: hugo-theme-minima
+theme: hugo-theme-minima-gisma
 author:
   description: ""
   name: 
@@ -22,13 +21,7 @@ params:
   social:
     - name: github
       svg: ''
-      url: https://github.com/mivinci
-    - name: linkedin
-      svg: ''
-      url: https://linkedin/in/leonard-mivinci-63895317a
-    - name: twitter
-      svg: ''
-      url: https://twitter.com/Leonard14733745
+      url: https://github.com/gisma-courses
     - name: rss
       svg: ''
       url: /index.xml
@@ -38,8 +31,8 @@ params:
     - "\U0001F31D"
   timeformat: Jan 02, 2006
   utterances:
-    issueTerm: pathname
-    repo: mivinci/hugo-theme-minima
+    issueTerm: comments
+    repo: my-gihub-name/my-github-blogrepo
 menu:
   main:
     - name: Home
@@ -48,15 +41,14 @@ menu:
     - name: Categories
       url: /categories
       weight: 2
-    - name: Series
-      url: /series
+    - name: Tags
+      url: /tags
       weight: 3
     - name: About
       url: /about
       weight: 4
 taxonomies:
   category: categories
-  series: series
   tag: tags
 markup:
   highlight:
