@@ -33,7 +33,7 @@ globalFontFamily = 'Helvatica, sans-serif'
 
 # Disqus configuration
 [params.disqus]
-shortname = "hugo-minima"
+shortname = ""
 
 # Utterance configuration
 # Full doc's at https://utteranc.es
