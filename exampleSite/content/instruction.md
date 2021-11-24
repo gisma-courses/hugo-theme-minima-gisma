@@ -2,7 +2,7 @@
 author: Hugo Authors
 title: Instruction
 date: 2021-07-19T10:52:59+08:00
-description: A Clean and minimal Hugo theme porting from Minima on Hexo. [Click me](https://h.xjj.pub/) to take a look at the demo site.
+description: A clean and minimal Hugo theme porting from Minima on Hexo and adapted to gisma-courses need. [Click me](https://h.xjj.pub/) to take a look at the demo site of the original theme.
 math: true
 comment: true
 categories:
@@ -56,7 +56,6 @@ Follow [exampleSite/config.toml](https://github.com/Mivinci/hugo-theme-minima/bl
 | description | string | Description of the post, will be rendered in a `p` tag |
 | date        | string | Datetime that the post is written                      |
 | categories  | array  | Array of categories the posts belongs to               |
-| series      | array  | Array of series the post belongs to                    |
 | tags        | array  | Array of tags the posts is related to                  |
 | math        | bool   | True if the post needs to render math formulas         |
 | mermaid     | bool   | True if the post needs to render mermaid graphs        |
@@ -68,4 +67,5 @@ Follow [exampleSite/config.toml](https://github.com/Mivinci/hugo-theme-minima/bl
 
 ### Feedback
 
-Feedbacks are welcome [here](https://github.com/Mivinci/hugo-theme-minima/issues).
+Feedbacks to the original theme are welcome [here](https://github.com/Mivinci/hugo-theme-minima/issues).
+Feedbacks to the adapted theme are welcome too [here](https://github.com/gisma-courses/hugo-theme-minima-gisma/issues).

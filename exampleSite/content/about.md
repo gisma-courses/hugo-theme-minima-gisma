@@ -10,6 +10,7 @@ weight: 1
 
 
 
+
 GI Modules is a blog-based collection of learning content in the broad field of geoinformatics. The blogs are sorted by categories and tags. Under the categories, related content is grouped together. Within the content pages, you can navigate to related articles via the tags.
 
 
