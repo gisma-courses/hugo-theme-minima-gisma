@@ -1,4 +1,4 @@
-baseURL: http://
+baseURL: /
 languageCode: en-us
 title: myBlog
 publishDir: docs
