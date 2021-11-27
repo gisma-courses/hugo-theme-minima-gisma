@@ -1,14 +1,16 @@
-baseURL: /
+baseurl: https://my_gisma_name.github.io/my_repo_name/
+publishDir: docs
+title: my fancy stuff  # Website Name 
 languageCode: en-us
-title: myBlog
 publishDir: docs
 #paginate: 6
 googleAnalytics: ''
 theme: hugo-theme-minima-gisma
 author:
-  description: ""
-  name: 
+  description: "i am the fancy author of this fancy repo"
+  name: "joe cool"
 params:
+  rname: my_repo_name
   comment: utterances
   displayDate: yes
   disqus:
@@ -22,10 +24,7 @@ params:
   social:
     - name: github
       svg: ''
-      url: https://github.com/gisma-courses
-    - name: rss
-      svg: ''
-      url: /index.xml
+      url: https://github.com/my_repo_name
   subtitle: ''
   switch:
     - "\U0001F31A"
