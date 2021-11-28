@@ -12,6 +12,7 @@ author:
 params:
   rname: my_reponame
   comment: utterances
+  rname: my_repo_name
   displayDate: yes
   disqus:
     shortname: hugo-minima
