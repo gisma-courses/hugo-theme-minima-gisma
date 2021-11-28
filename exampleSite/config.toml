@@ -30,9 +30,8 @@ selectable = true
 # custom global font. notice: `globalFontFamily` won't be working
 # on texts in some special positions like on titles
 globalFontFamily = 'Helvatica, sans-serif'
-
-[params.rname]
 rname = "my_repo_name"
+
 # Disqus configuration
 [params.disqus]
 shortname = ""
