@@ -10,8 +10,8 @@ author:
   description: "i am the fancy author of this fancy repo"
   name: "joe cool"
 params:
-  rname: my_repo_name
   comment: utterances
+  rname: my_repo_name
   displayDate: yes
   disqus:
     shortname: hugo-minima
