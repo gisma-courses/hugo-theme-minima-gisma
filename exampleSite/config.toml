@@ -31,6 +31,8 @@ selectable = true
 # on texts in some special positions like on titles
 globalFontFamily = 'Helvatica, sans-serif'
 
+[params.rname]
+rname = "my_repo_name"
 # Disqus configuration
 [params.disqus]
 shortname = ""
