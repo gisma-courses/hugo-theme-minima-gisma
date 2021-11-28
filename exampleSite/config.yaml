@@ -1,0 +1,57 @@
+baseurl: https://my_gisma_name.github.io/my_repo_name/
+publishDir: docs
+title: my fancy stuff  # Website Name 
+languageCode: en-us
+publishDir: docs
+#paginate: 6
+googleAnalytics: ''
+theme: hugo-theme-minima-gisma
+author:
+  description: "i am the fancy author of this fancy repo"
+  name: "joe cool"
+params:
+  rname: my_reponame
+  comment: utterances
+  rname: my_repo_name
+  displayDate: yes
+  disqus:
+    shortname: hugo-minima
+  globalFontFamily: Helvatica, sans-serif
+  iam: I am
+  ovo:
+    placeholder: ''
+    server: ''
+  selectable: yes
+  social:
+    - name: github
+      svg: ''
+      url: https://github.com/my_repo_name
+  subtitle: ''
+  switch:
+    - "\U0001F31A"
+    - "\U0001F31D"
+  timeformat: Jan 02, 2006
+  utterances:
+    issueTerm: comments
+    repo: my-gihub-name/my-github-blogrepo
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Categories
+      url: /categories
+      weight: 2
+    - name: Tags
+      url: /tags
+      weight: 3
+    - name: About
+      url: /about
+      weight: 4
+taxonomies:
+  category: categories
+  tag: tags
+markup:
+  highlight:
+    lineNos: yes
+    noClasses: no
